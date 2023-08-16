@@ -30,3 +30,6 @@ obj/Debug/net472/com.JustNU.AdjustableTraderRows.pdb
 obj/Debug/net472/PluginInfo.cs
 obj/project.assets.json
 obj/project.nuget.cache
+.vs/AdjustableTraderRows/DesignTimeBuild/.dtbcache.v2
+.vs/AdjustableTraderRows/v16/.suo
+AdjustableTraderRows.sln
