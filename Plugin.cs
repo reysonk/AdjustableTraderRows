@@ -16,7 +16,7 @@ namespace AdjustableTraderRows
         private void Awake()
         {
             // set up config
-            configNumberInARow = Config.Bind("General", "Traders In a Row", 4, "Number of traders in a single row");
+            configNumberInARow = Config.Bind("General", "Traders In a Row", 4, new ConfigDescription("Number of traders in a single row", new AcceptableValueRange<int>(1, 16)));
 
 
             // Plugin startup logic
